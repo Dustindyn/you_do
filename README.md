@@ -1,16 +1,31 @@
-# to_do_resume_app
+# YouDo - A Flutter app which helps you keeping track of your work/life-balance aswell as your daily tasks
+![alt text](https://i.imgur.com/XlHKggB.png)
 
-A new Flutter project.
+## YouDo also supports dark mode!
+![alt_text](https://i.imgur.com/DnCrOHf.png)
 
-## Getting Started
+## What is YouDo?
 
-This project is a starting point for a Flutter application.
+YouDo is a multiplatform Flutter App for keeping track of your daily tasks as well as which areas of your life you are currently paying the most attention on.
 
-A few resources to get you started if this is your first Flutter project:
+All data used is processed locally on the device and no communication with an external server is needed.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Development environment setup
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run and edit this project you need to install Flutter aswell as the Flutter plugin for your used IDE.
+
+## Building the project
+
+To build the project first run following commands inside the projects folder:
+
+```
+flutter clean
+```
+
+```
+flutter pub get
+```
+
+### Known issues
+
+Due to an issue with the AnimatedListState this app currently only runs in release mode, once started in debug mode flutter will throw an internal error when you try to add a new task.
