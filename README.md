@@ -1,4 +1,4 @@
-# YouDo - A Flutter app which helps you keeping track of your work/life-balance aswell as your daily tasks
+# YouDo - A Flutter app which helps you keep track of your work/life-balance aswell as your daily tasks
 ![alt text](https://i.imgur.com/XlHKggB.png)
 
 ## YouDo also supports dark mode!
