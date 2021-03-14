@@ -26,6 +26,10 @@ flutter clean
 flutter pub get
 ```
 
+```
+flutter run --release
+```
+
 ### Known issues
 
 Due to an issue with the AnimatedListState this app currently only runs in release mode, once started in debug mode flutter will throw an internal error when you try to add a new task.
